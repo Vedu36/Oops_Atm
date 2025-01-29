@@ -16,4 +16,4 @@ This project is a sophisticated ATM simulator implemented in Python. It leverage
 To run this project locally, follow these steps:
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/atm-simulator.git
+   git clone https://github.com/Vedu36/Oops_Atm.git
