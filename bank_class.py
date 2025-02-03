@@ -16,9 +16,9 @@ class Atm():
     def get_count():
         return Atm.__count
     
-    staticmethod
+    @staticmethod
     def set_count():
-        temp=int(input("type the count number"))
+        temp=int(input("Type the count number"))
         Atm.__count=temp
         print("Done")
         
@@ -33,7 +33,7 @@ class Atm():
         if temp==self.__pin:
             new=input("Type the new name ")
             self.__name=new
-            print("new name Set")
+            print("New name Set")
         else:
             print("Wrong pin")
 
@@ -42,7 +42,7 @@ class Atm():
         if temp==self.__name:
             new=input("Type the new pin ")
             self.__pin=new
-            print("new pin Set")
+            print("New pin Set")
         else:
             print("Wrong name")
 
